@@ -1,0 +1,74 @@
+body {
+    background-image: url('tree.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;; /* change the last value for opacity */
+}
+
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem;
+    font-size: 18px;
+
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.container p{
+    display: flex;
+    margin: 0px 15px 0px 0px;
+    align-items: center;
+    justify-content: center;
+}
+.container span{
+   margin: 6px;
+}
+
+#infobar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#name{
+    font-size: 40px;
+    padding: 10px;
+    font-family:fantasy;
+    color: rgb(222, 96, 205);
+
+}
+
+.skills ul{
+    display: flex;
+    align-items: center;  
+}
+
+.skills ul li{
+    margin: 15px 15px;
+    color: rgba(221, 221, 221, 0.896)
+}
+
+#content{
+    display: flex;
+    max-width: 100%;
+    margin: auto;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    border: 2px outset rgb(17, 0, 255);
+    margin: 30px;
+    background-color:transparent;
+    border-radius: 122px 30px 200px 50px;
+    color: white;
+}

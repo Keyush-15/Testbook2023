@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: antiquewhite;
+}
+
+.container{
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    margin: 60px 40px;
+}
+
+.container h2{
+       margin: 20px 0px;
+       font-size: 40px;
+       color:saddlebrown;
+}
+
+.container p{
+    margin: 15px 15px;
+    text-align: justify;
+}
+
+.container button{
+    width: 30%;
+    height: 80px;
+    margin: 10px 0px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: darkgreen;
+    color: white;
+    
+}
+
+.container button:hover{
+    background-color: antiquewhite;
+    color: green;
+}
+.container img{
+    width:100%;
+    height: min-content;
+  
+}
