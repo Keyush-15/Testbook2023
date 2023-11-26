@@ -1,84 +1,397 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="linkedIn.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="linkedIn.css" />
     <title>My LinkedIn Page!</title>
-</head>
-<body>
-
-
-
+  </head>
+  <body>
     <!--Navigation-->
     <header>
-    <div id="navbar">
+      <div id="navbar">
         <div class="left-bar">
-            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="45" viewBox="0 0 48 48">
-                <path fill="#0288D1" d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5V37z"></path><path fill="#FFF" d="M12 19H17V36H12zM14.485 17h-.028C12.965 17 12 15.888 12 14.499 12 13.08 12.995 12 14.514 12c1.521 0 2.458 1.08 2.486 2.499C17 15.887 16.035 17 14.485 17zM36 36h-5v-9.099c0-2.198-1.225-3.698-3.192-3.698-1.501 0-2.313 1.012-2.707 1.99C24.957 25.543 25 26.511 25 27v9h-5V19h5v2.616C25.721 20.5 26.85 19 29.738 19c3.578 0 6.261 2.25 6.261 7.274L36 36 36 36z"></path>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            x="0px"
+            y="0px"
+            width="50"
+            height="45"
+            viewBox="0 0 48 48"
+          >
+            <path
+              fill="#0288D1"
+              d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5V37z"
+            ></path>
+            <path
+              fill="#FFF"
+              d="M12 19H17V36H12zM14.485 17h-.028C12.965 17 12 15.888 12 14.499 12 13.08 12.995 12 14.514 12c1.521 0 2.458 1.08 2.486 2.499C17 15.887 16.035 17 14.485 17zM36 36h-5v-9.099c0-2.198-1.225-3.698-3.192-3.698-1.501 0-2.313 1.012-2.707 1.99C24.957 25.543 25 26.511 25 27v9h-5V19h5v2.616C25.721 20.5 26.85 19 29.738 19c3.578 0 6.261 2.25 6.261 7.274L36 36 36 36z"
+            ></path>
+          </svg>
+
+          <form>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              fill="currentColor"
+              class="bi bi-search"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+              />
             </svg>
-            
-            <form>
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-                  </svg>
-                <input type="search" placeholder="Search.." name="Search">
-            </form>
-
-
+            <input type="search" placeholder="Search.." name="Search" />
+          </form>
         </div>
 
         <div class="right-bar">
-            <div class="icons">    
-            <span class="material-symbols-outlined">
-                home
-            </span>
+          <div class="icons">
+            <span class="material-symbols-outlined"> home </span>
             <h6>Home</h6>
-            </div>
-            <div class="icons"> 
-            <span class="material-symbols-outlined">
-                group
-            </span>
+          </div>
+          <div class="icons">
+            <span class="material-symbols-outlined"> group </span>
             <h6>My Network</h6>
-            </div>
-            <div class="icons">    
-            <span class="material-symbols-outlined">
-                work
-            </span>
+          </div>
+          <div class="icons">
+            <span class="material-symbols-outlined"> work </span>
             <h6>Jobs</h6>
-            </div>
-            <div class="icons">    
-            <span class="material-symbols-outlined">
-                sms
-            </span>
+          </div>
+          <div class="icons">
+            <span class="material-symbols-outlined"> sms </span>
             <h6>Messaging</h6>
-            </div>
-            <div class="icons">    
-            <span class="material-symbols-outlined">
-                    notifications
-            </span>
+          </div>
+          <div class="icons">
+            <span class="material-symbols-outlined"> notifications </span>
             <h6>Notifications</h6>
-            </div>
-            <div class="icons">    
-            <span class="material-symbols-outlined">
-                        account_circle
-            </span>
+          </div>
+          <div class="icons">
+            <span class="material-symbols-outlined"> account_circle </span>
             <h6>Me!</h6>
-            </div>
-            <div class="icons">     
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24"     height="24" focusable="false">
-                    <path d="M3 3h4v4H3zm7 4h4V3h-4zm7-4v4h4V3zM3 14h4v-4H3zm7 0h4v-4h-4zm7 0h4v-4h-4zM3 21h4v-4H3zm7 0h4v-4h-4zm7 0h4v-4h-4z"></path>
-                    </svg>
-                <h6>For Business</h6>
-            </div> 
-            <a href="">Try Premium for free</a>
+          </div>
+          <div class="icons">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              data-supported-dps="24x24"
+              fill="currentColor"
+              class="mercado-match"
+              width="24"
+              height="24"
+              focusable="false"
+            >
+              <path
+                d="M3 3h4v4H3zm7 4h4V3h-4zm7-4v4h4V3zM3 14h4v-4H3zm7 0h4v-4h-4zm7 0h4v-4h-4zM3 21h4v-4H3zm7 0h4v-4h-4zm7 0h4v-4h-4z"
+              ></path>
+            </svg>
+            <h6>For Business</h6>
+          </div>
+          <a href="">Try Premium for free</a>
         </div>
-    </div>
-</header>
+      </div>
+    </header>
 
-<area
+    <main>
+      <div class="content">
+        <div class="content-container">
+
+          <!--Left Card-->
+          <div class="left">
+            <!--Card-->
+            <div class="card-container">
+            <div class="card-content">
+                <img
+                  src="/Project/HTML_CSS/Images/linkedIn profile.jpeg"
+                  alt="Profile"
+                />
+                <p><strong>Keyush Kothari</strong></p>
+                <i>Student at Universal College of Engineering Mumbai</i>
+            </div>
+                <hr />
+
+                <div>
+                  <p style="display: block; width: 100%">
+                    Profile viewers<span style="float: right">13</span>
+                  </p>
+                  <p>View all analytics</p>
+                </div>
+
+                <hr />
+
+                <div>
+                  <p>Strengthen your profile with an AI writing assistant</p>
+                  <p>Get hired faster. Try Premium free.</p>
+                </div>
+
+                <hr />
+
+                <div>
+                  <p>My items</p>
+                </div>
+              
+            </div>
+
+            <div class="card-container">
+              <div class="card-content">
+                <p>Recent</p>
+                <span class="material-symbols-outlined"> groups </span
+                >#Opentowork Support Group
+                <span class="material-symbols-outlined"> tooltip </span>Coffee
+                &amp; Conversation with a Fintech CEO
+                <span class="material-symbols-outlined"> tag </span>workfromhome
+                <span class="material-symbols-outlined"> tag </span>Linked:HR(#1
+                Human Resources Group)
+
+                <br /><br />
+                <hr />
+
+                <p>Groups</p>
+                <span class="material-symbols-outlined"> groups </span
+                >GoogleWorld!
+                <span class="material-symbols-outlined"> groups </span
+                >#Opentowork Support Group
+                <p>See all</p>
+
+                <p>Events <span class="material-symbols-outlined">
+                    add
+                    </span>
+                </p>
+
+                <p>Followed Hashtags</p>
+                <span class="material-symbols-outlined">
+                    tag
+                    </span>SoftwareDeveloper
+                    <span class="material-symbols-outlined">
+                        tag
+                        </span>workfromhome
+                        <span class="material-symbols-outlined">
+                            tag
+                            </span>GoogleIntern
+                <p>Show More <span class="material-symbols-outlined">
+                    expand_more
+                    </span></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="center">
+            <div class="post-card">
+                <div class="post">
+                <div class="post-section">
+                    <img src="/Project/HTML_CSS/Images/linkedIn profile.jpeg" alt="profile">
+                    <input type="text" placeholder="Start a Post">
+                </div>
+                <div class="post-section1">
+                    <ul>
+                        <li><span class="material-symbols-outlined">
+                            image
+                            </span>Media</li>
+                        <li><span class="material-symbols-outlined">
+                            work
+                            </span>Jobs</li>
+                        <li><span class="material-symbols-outlined">
+                            newsmode
+                            </span>Write article</li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+                 <div>
+                <span><hr>Sort by: Top<span class="material-symbols-outlined">
+                    expand_more
+                    </span></span>     
+                </div>
+
+            <!--Center k Feeds-->
+             <div class="feeds">
+                <div class="feed feed1">
+                    <div class="feed1-content-top">
+                        <div>
+                        <span class="material-symbols-outlined">
+                            account_circle
+                            </span>Munjal Shroff <i>like this</i>
+                        </div>
+                        <div>
+                            <span class="material-symbols-outlined">
+                                more_horiz
+                                </span>
+                            <span class="material-symbols-outlined">
+                                    close
+                                </span>
+                        </div>        
+                    </div>
+                    <div class="feed1-content-center">
+                        <div class="center-content">
+                        <div class="account">
+                        <div class="accounts">
+                            <p><span class="material-symbols-outlined">
+                            account_circle
+                            </span>Nomita Chakravorty . 3rd + <br>
+                             Producer, People and Studio Manager</p>
+                        </div>
+                            <p>4d <span class="material-symbols-outlined">
+                                public
+                                </span>
+                            </p>
+                        </div>
+                       
+                                <p><span class="material-symbols-outlined">
+                                    add
+                                    </span> 
+                                    Follow
+                                </p>      
+                        </div>        
+                        <p>Proud of all the "Graphitians"..Cheers Ye!!
+                        </p>       
+                    </div>
+                    <div class="feed1-content-bottom">
+                          <div>
+                            <span class="material-symbols-outlined">
+                            account_circle
+                            </span> Munjal Shroff <i> . Following</i>
+                            <p>Director & COO</p>
+                            <p>4d .<span class="material-symbols-outlined">
+                                public
+                                </span> </p>
+                                <P>What a wonderful coincidence to meet the Hon Chief Minister of Goa </P>
+                            </div>
+                          <div>
+                            <img src="https://media.licdn.com/dms/image/D4D22AQHaO-xHqvLLFA/feedshare-shrink_1280/0/1700581056714?e=1703721600&v=beta&t=k-C1GZ_BkIQ4W3S4_bjWxEEIa9O8clrHMzUS3MWP_V0" alt="post1">
+                          </div>
+                    </div>
+                    <div>
+                        <span class="material-symbols-outlined">
+                            thumb_up
+                            </span> 7
+                    </div>
+
+                    <hr>
+
+                    <div class="feed1-menu">
+                        <ul>
+                            <li><a><span class="material-symbols-outlined">
+                                thumb_up
+                                </span>Like</a>
+                            </li>
+                            <li><a><span class="material-symbols-outlined">
+                                comment
+                                </span> Comment
+                            </a></li>  
+                            <li><a><span class="material-symbols-outlined">
+                                repeat
+                                </span>Repost</a>
+                            </li>
+                            <li><a><span class="material-symbols-outlined">
+                                send
+                                </span>Share</a>
+                            </li>  
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="feed feed2">
+                    <div class="feed2-content-top">
+                        <div>
+                            <span class="material-symbols-outlined">
+                                account_circle
+                                </span>
+                                Sandeep Kumar <i>commented on this</i>
+                        </div>
+                        
+                        <div>
+                            <span class="material-symbols-outlined">
+                                more_horiz
+                                </span>
+                            <span class="material-symbols-outlined">
+                                    close
+                                </span>
+                        </div>        
+                    </div>
+                    <hr>
+
+                    <div class="feed2-content-center">
+                        <div class="center-content">
+                        <div class="account">
+                        <div class="accounts">
+                            <p><span class="material-symbols-outlined">
+                            account_circle
+                            </span>Anandh Kumar S . 3rd + <br>
+                             Lead Data Analyst(Oracle Databases)</p>
+                        </div>
+                            <p>2d <i>. Edited</i> <span class="material-symbols-outlined">
+                                public
+                                </span>
+                            </p>
+                        </div>
+                                <p><span class="material-symbols-outlined">
+                                    add
+                                    </span> 
+                                    Follow
+                                </p>      
+                        </div> 
+                        <p>I have conducted few interviews for Data Analyst, Power BI and SQL roles internally in recent months and&nbsp;I usually conclude every interview by asking the candidates, “Do you have any questions for me ❓ ”</p>
+                        <p>It's surprising that most candidates don't ask any questions and miss out on the chance to make a good impression at the end of the interview.</p>
+
+                        <div>
+                            <P><span class="material-symbols-outlined">
+                                favorite
+                                </span>
+                                <span class="material-symbols-outlined">
+                                    emoji_objects
+                                    </span>
+                                    <span class="material-symbols-outlined">
+                                        thumb_up
+                                        </span> <a>Sandeep Kumar and 86 others</a></P>
+                        </div>
+                        <div>
+                            <P>9 comments <span><i>. 1 repost</i></span></P>
+                        </div>
+                        <hr>
+                        <div class="feed2-menu">
+                            <ul>
+                                <li><a><span class="material-symbols-outlined">
+                                    thumb_up
+                                    </span>Like</a>
+                                </li>
+                                <li><a><span class="material-symbols-outlined">
+                                    comment
+                                    </span> Comment
+                                </a></li>  
+                                <li><a><span class="material-symbols-outlined">
+                                    repeat
+                                    </span>Repost</a>
+                                </li>
+                                <li><a><span class="material-symbols-outlined">
+                                    send
+                                    </span>Share</a>
+                                </li>  
+                            </ul>
+                        </div>
+
+                        <div class="comment-section">
+                            <div class="post-section">
+                                <img src="/Project/HTML_CSS/Images/linkedIn profile.jpeg" alt="profile">
+                                <input type="text" placeholder="Start a Post">
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="feed feed3"></div>
+                <div class="feed feed4"></div>
 
 
 
@@ -103,9 +416,34 @@
 
 
 
+             </div>   
+             
+                 
+              
+        </div>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <div class="right"></div>
+        </div>
+      </div>
+    </main>
 
     <!--content-->
-
-</body>
+  </body>
 </html>

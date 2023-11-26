@@ -54,3 +54,225 @@ header{
     align-items: center;
     margin-right: 20px;
 }
+
+.main{
+    display: flex;
+    
+}
+
+
+.content{
+     padding: 15px 30px;
+}
+.content-container{
+    display: grid;
+    grid-template-columns: auto auto 1fr;
+    grid-template-areas: "sidebar" "main" "main" 
+                          "sidebar" "main"
+                          "sidebar" "main";
+    column-gap: 25px;
+    row-gap: 5px;
+    
+    
+}
+
+.left{
+    width: 320px;
+    grid-template: auto;
+    gr
+   
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.card-container{
+    grid-area: "sidebar";
+   margin: 5px;
+   border: 2px solid black;
+}
+.card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(252,252,255);
+    background: linear-gradient(0deg, rgba(252,252,255,1) 0%, rgba(51,51,92,1) 100%, rgba(49,58,100,1) 100%, rgba(50,56,97,1) 100%, rgba(0,212,255,1) 100%);
+    padding: 40px;
+    background-color: transparent;
+}
+
+.card-content img{
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+}
+
+.center{
+    display: grid;
+    grid-template-rows:auto auto auto 1fr 2fr;
+    width: 700px;
+}
+
+.post-card{
+    display: flex;
+    grid-area: "header";
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+}
+.post{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   border: 2px solid #ccc;
+   border-radius: 10px;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   width: 600px;
+}
+
+.post-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.post-section img{
+       height: 70px;
+       width: auto;
+       border-radius: 150px;
+}
+
+.post-section input{
+      border-radius: 90px;
+      height: 50px;
+      width: 450px;
+      padding: 10px;
+}
+
+.post-section1{
+    display: flex;
+    justify-content: center;
+}
+
+.post-section1 ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.post-section1 ul li , .post-section1 ul span{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 8px;
+            margin-bottom: 0px;
+            padding-left: 0px;
+}
+
+.feeds{
+    display: grid;
+    gap: 20px;
+    grid-area: "main";
+   
+}
+
+.feed{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.feed1{
+    border: 2px solid black;
+    padding: 15px;
+    width: 700px;
+}
+
+.feed1-content-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.feed1-content-center{
+   display: flex;
+   flex-direction: column;
+   flex-wrap: nowrap;
+}
+
+.center-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.account{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.accounts p{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center
+}
+.accounts p > span{
+     font-size: 60px;
+}
+
+.feed1-content-bottom{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.feed1-content-bottom img{
+          width: 640px;
+          height: auto;
+          background-size: 100% 100%;
+}
+
+.feed1-menu ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.feed1-menu ul li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 8px;
+    margin: 10px;
+}
+
+.feed1-menu ul li a span{
+    margin: 5px;
+}
+
+.feed2{
+    display: flex;
+    border: 2px solid black;
+    grid-area: "main";
+    padding: 15px;
+    width: 700px;
+}
